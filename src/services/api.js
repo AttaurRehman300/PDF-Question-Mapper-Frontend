@@ -14,7 +14,7 @@ export const analyzePDFs = (formData) => {
 };
 
 export const healthCheck = () => {
-  return api.get('/pdf/health');
+  return api.get('/health');
 };
 
 export default api;
